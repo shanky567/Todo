@@ -1,10 +1,9 @@
 body {
 	font-family: Roboto;
-  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+  background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 ul {
@@ -62,7 +61,7 @@ li:hover span {
 input {
 	font-size: 18px;
 	color: #2980b9;
-	background-color: #f7f7f7;
+	background-color: maroon;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
